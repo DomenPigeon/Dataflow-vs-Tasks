@@ -1,0 +1,208 @@
+Executing functions which write to disk
+----------------------------------------------------
+Generating files ...                                                                                                                                                                                                                            
+
+Files count: 5, lines: 80, line length: 50
+===========================
+Parallel (1 ) PostSync:       109ms    average: 10ms (109652)
+Parallel (2 ) PostSync:       78ms     average: 7ms  (78173)
+Parallel (32) PostSync:       75ms     average: 7ms  (75917)
+Parallel (-1) PostSync:       82ms     average: 8ms  (82011)
+
+Parallel (1 ) PostAsync:      60ms     average: 6ms  (60292)
+Parallel (2 ) PostAsync:      61ms     average: 6ms  (61626)
+Parallel (32) PostAsync:      65ms     average: 6ms  (65251)
+Parallel (-1) PostAsync:      63ms     average: 6ms  (63195)
+
+Parallel (0 ) OnlyTasks:      55ms     average: 5ms  (55138)
+
+
+Generating files ...                                                                                                                                                                                                                            
+
+Files count: 20, lines: 80, line length: 50
+===========================
+Parallel (1 ) PostSync:       169ms    average: 16ms (169339)
+Parallel (2 ) PostSync:       186ms    average: 18ms (186790)
+Parallel (32) PostSync:       283ms    average: 28ms (283736)
+Parallel (-1) PostSync:       184ms    average: 18ms (184946)
+
+Parallel (1 ) PostAsync:      168ms    average: 16ms (168200)
+Parallel (2 ) PostAsync:      181ms    average: 18ms (181466)
+Parallel (32) PostAsync:      189ms    average: 18ms (189705)
+Parallel (-1) PostAsync:      184ms    average: 18ms (184740)
+
+Parallel (0 ) OnlyTasks:      145ms    average: 14ms (145652)
+
+
+Generating files ...                                                                                                                                                                                                                            
+
+Files count: 100, lines: 800, line length: 100
+===========================
+Parallel (1 ) PostSync:       838ms    average: 83ms (838057)
+Parallel (2 ) PostSync:       922ms    average: 92ms (922423)
+Parallel (32) PostSync:       644ms    average: 64ms (644022)
+Parallel (-1) PostSync:       796ms    average: 79ms (796381)
+
+Parallel (1 ) PostAsync:      840ms    average: 84ms (840628)
+Parallel (2 ) PostAsync:      913ms    average: 91ms (913528)
+Parallel (32) PostAsync:      629ms    average: 62ms (629275)
+Parallel (-1) PostAsync:      739ms    average: 73ms (739701)
+
+Parallel (0 ) OnlyTasks:      488ms    average: 48ms (488913)
+
+
+Generating files ...                                                                                                                                                                                                                            
+
+Files count: 200, lines: 800, line length: 100
+===========================
+Parallel (1 ) PostSync:       1680ms   average: 168ms (1680892)
+Parallel (2 ) PostSync:       1841ms   average: 184ms (1841615)
+Parallel (32) PostSync:       1423ms   average: 142ms (1423671)
+Parallel (-1) PostSync:       2137ms   average: 213ms (2137198)
+
+Parallel (1 ) PostAsync:      1672ms   average: 167ms (1672407)
+Parallel (2 ) PostAsync:      1875ms   average: 187ms (1875667)
+Parallel (32) PostAsync:      1568ms   average: 156ms (1568271)
+Parallel (-1) PostAsync:      1719ms   average: 171ms (1719330)
+
+Parallel (0 ) OnlyTasks:      1252ms   average: 125ms (1252901)
+
+
+Generating files ...                                                                                                                                                                                                                            
+
+Files count: 2000, lines: 800, line length: 100
+===========================
+Parallel (1 ) PostSync:       3389ms   average: 1694ms (16945860)
+Parallel (2 ) PostSync:       3782ms   average: 1891ms (18910695)
+Parallel (32) PostSync:       4360ms   average: 2180ms (21802407)
+Parallel (-1) PostSync:       4899ms   average: 2449ms (24497631)
+
+Parallel (1 ) PostAsync:      3411ms   average: 1705ms (17056642)
+Parallel (2 ) PostAsync:      3757ms   average: 1878ms (18785234)
+Parallel (32) PostAsync:      4568ms   average: 2284ms (22840030)
+Parallel (-1) PostAsync:      4548ms   average: 2274ms (22741543)
+
+Parallel (0 ) OnlyTasks:      3494ms   average: 1747ms (17474532)
+
+
+Generating files ...                                                                                                                                                                                                                            
+
+Files count: 8000, lines: 800, line length: 100
+===========================
+Parallel (1 ) PostSync:       14912ms  average: 7456ms (74564081)
+Parallel (2 ) PostSync:       15199ms  average: 7599ms (75995751)
+Parallel (32) PostSync:       19754ms  average: 9877ms (98770710)
+Parallel (-1) PostSync:       21717ms  average: 10858ms (108589833)
+
+Parallel (1 ) PostAsync:      14740ms  average: 7370ms (73704453)
+Parallel (2 ) PostAsync:      15184ms  average: 7592ms (75923907)
+Parallel (32) PostAsync:      19095ms  average: 9547ms (95479989)
+Parallel (-1) PostAsync:      21524ms  average: 10762ms (107622490)
+
+Parallel (0 ) OnlyTasks:      15511ms  average: 7755ms (77557741)
+
+
+
+
+Executing functions which don't write to disk
+----------------------------------------------------
+Generating files ...                                                                                                                                                                                                                            
+
+Files count: 5, lines: 80, line length: 50
+===========================
+Parallel (1 ) PostSync:       6ms      average: 0ms  (6493)
+Parallel (2 ) PostSync:       4ms      average: 0ms  (4673)
+Parallel (32) PostSync:       3ms      average: 0ms  (3621)
+Parallel (-1) PostSync:       4ms      average: 0ms  (4290)
+
+Parallel (1 ) PostAsync:      5ms      average: 0ms  (5222)
+Parallel (2 ) PostAsync:      4ms      average: 0ms  (4750)
+Parallel (32) PostAsync:      3ms      average: 0ms  (3687)
+Parallel (-1) PostAsync:      3ms      average: 0ms  (3874)
+
+Parallel (0 ) OnlyTasks:      3ms      average: 0ms  (3560)
+
+
+Generating files ...                                                                                                                                                                                                                            
+
+Files count: 20, lines: 80, line length: 50
+===========================
+Parallel (1 ) PostSync:       14ms     average: 1ms  (14157)
+Parallel (2 ) PostSync:       10ms     average: 1ms  (10922)
+Parallel (32) PostSync:       28ms     average: 2ms  (28163)
+Parallel (-1) PostSync:       11ms     average: 1ms  (11329)
+
+Parallel (1 ) PostAsync:      13ms     average: 1ms  (13790)
+Parallel (2 ) PostAsync:      11ms     average: 1ms  (11412)
+Parallel (32) PostAsync:      11ms     average: 1ms  (11487)
+Parallel (-1) PostAsync:      11ms     average: 1ms  (11425)
+
+Parallel (0 ) OnlyTasks:      9ms      average: 0ms  (9966)
+
+
+Generating files ...                                                                                                                                                                                                                            
+
+Files count: 100, lines: 800, line length: 100
+===========================
+Parallel (1 ) PostSync:       579ms    average: 57ms (579491)
+Parallel (2 ) PostSync:       383ms    average: 38ms (383180)
+Parallel (32) PostSync:       348ms    average: 34ms (348253)
+Parallel (-1) PostSync:       394ms    average: 39ms (394941)
+
+Parallel (1 ) PostAsync:      588ms    average: 58ms (588426)
+Parallel (2 ) PostAsync:      395ms    average: 39ms (395669)
+Parallel (32) PostAsync:      319ms    average: 31ms (319802)
+Parallel (-1) PostAsync:      397ms    average: 39ms (397296)
+
+Parallel (0 ) OnlyTasks:      335ms    average: 33ms (335878)
+
+
+Generating files ...                                                                                                                                                                                                                            
+
+Files count: 200, lines: 800, line length: 100
+===========================
+Parallel (1 ) PostSync:       1463ms   average: 146ms (1463229)
+Parallel (2 ) PostSync:       852ms    average: 85ms (852676)
+Parallel (32) PostSync:       772ms    average: 77ms (772202)
+Parallel (-1) PostSync:       887ms    average: 88ms (887346)
+
+Parallel (1 ) PostAsync:      1310ms   average: 131ms (1310698)
+Parallel (2 ) PostAsync:      860ms    average: 86ms (860092)
+Parallel (32) PostAsync:      727ms    average: 72ms (727210)
+Parallel (-1) PostAsync:      887ms    average: 88ms (887346)
+
+Parallel (0 ) OnlyTasks:      646ms    average: 64ms (646792)
+
+
+Generating files ...                                                                                                                                                                                                                            
+
+Files count: 2000, lines: 800, line length: 100
+===========================
+Parallel (1 ) PostSync:       2881ms   average: 1440ms (14407306)
+Parallel (2 ) PostSync:       1962ms   average: 981ms (9813225)
+Parallel (32) PostSync:       1585ms   average: 792ms (7927143)
+Parallel (-1) PostSync:       1966ms   average: 983ms (9834279)
+
+Parallel (1 ) PostAsync:      2861ms   average: 1430ms (14309328)
+Parallel (2 ) PostAsync:      1994ms   average: 997ms (9970517)
+Parallel (32) PostAsync:      1569ms   average: 784ms (7849993)
+Parallel (-1) PostAsync:      1665ms   average: 832ms (8327430)
+
+Parallel (0 ) OnlyTasks:      1297ms   average: 648ms (6486097)
+
+
+Generating files ...                                                                                                                                                                                                                            
+
+Files count: 8000, lines: 800, line length: 100
+===========================
+Parallel (1 ) PostSync:       10751ms  average: 5375ms (53756220)
+Parallel (2 ) PostSync:       7373ms   average: 3686ms (36866949)
+Parallel (32) PostSync:       6152ms   average: 3076ms (30763770)
+Parallel (-1) PostSync:       6999ms   average: 3499ms (34997081)
+
+Parallel (1 ) PostAsync:      10693ms  average: 5346ms (53467982)
+Parallel (2 ) PostAsync:      7709ms   average: 3854ms (38546109)
+Parallel (32) PostAsync:      6477ms   average: 3238ms (32387590)
+Parallel (-1) PostAsync:      6638ms   average: 3319ms (33193407)
+
+Parallel (0 ) OnlyTasks:      5123ms   average: 2561ms (25618252)

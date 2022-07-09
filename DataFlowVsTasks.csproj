@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="ConsoleApp1\**" />
+      <Compile Remove="ConsoleApplication1\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="ConsoleApp1\**" />
+      <EmbeddedResource Remove="ConsoleApplication1\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="ConsoleApp1\**" />
+      <None Remove="ConsoleApplication1\**" />
+    </ItemGroup>
+
+</Project>
