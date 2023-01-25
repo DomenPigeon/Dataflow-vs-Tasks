@@ -1,4 +1,5 @@
-﻿using DataFlowVsTasks;
+﻿using System.Collections.Immutable;
+using DataFlowVsTasks;
 
 const int iterations = 10;
 
@@ -11,6 +12,8 @@ Data.Generate(5, 80, 50);
 await Analyze.Function(nameof(DataFlow.PostSync), DataFlow.PostSync, true, iterations);
 await Analyze.Function(nameof(DataFlow.PostAsync), DataFlow.PostAsync, true, iterations);
 await Analyze.Function(nameof(Tasks.OnlyTasks), Tasks.OnlyTasks, true, iterations);
+
+var l = new List<int>().ToImmutableList();
 
 Data.Generate(20, 80, 50);
 await Analyze.Function(nameof(DataFlow.PostSync), DataFlow.PostSync, true, iterations);
